@@ -7,12 +7,10 @@ module.exports = {
   username: process.env.DATABASE_USERNAME,
   password: process.env.DATABASE_PASSWORD,
   database: process.env.DATABASE,
-  name: "database1",
   define: {
     timespamps: true,
     underscored: true,
     underscoredAll: true,
-
     createdAt: "created_at",
     updatedAt: "updated_at"
   },
