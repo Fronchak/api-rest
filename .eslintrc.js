@@ -15,6 +15,8 @@ module.exports = {
     quotes: "off",
     "class-methods-use-this": "off",
     "comma-dangle": "off",
-    "import/first": "off"
+    "import/first": "off",
+    "no-param-reassign": "off",
+    "arrow-parens": "off"
   },
 };
